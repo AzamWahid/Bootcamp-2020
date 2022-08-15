@@ -37,5 +37,5 @@ jobs:
         run: npm install -g surge
         
       - name: Run Surge
-        run: surge ./ bootcampazam.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./ bootcampazam.surge.sh --token ${{secrets.SURGE_DEPLOY_KEY}}
         
