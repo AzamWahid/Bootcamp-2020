@@ -32,7 +32,7 @@ jobs:
       - name: Install NodeJS
         uses: actions/setup-node@v2-beta
         with:
-          node-version:12
+          node-version: 12
       - name: Install Suge
         run: npm install -g surge
         
